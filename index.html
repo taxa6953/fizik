@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>جزوه‌های آموزشی من</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Vazirmatn',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+padding:30px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+h1{
+text-align:center;
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+border-radius:20px;
+padding:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+background:#3b82f6;
+color:white;
+text-decoration:none;
+border-radius:10px;
+margin-top:10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h1>📚 آرشیو جزوه‌های آموزشی</h1>
+
+<div class="grid">
+
+<div class="card">
+<h3>جزوه شماره ۱</h3>
+<p>عنوان درس</p>
+<a href="pdfs/note1.pdf" class="btn" target="_blank">
+مشاهده PDF
+</a>
+</div>
+
+<div class="card">
+<h3>جزوه شماره ۲</h3>
+<p>عنوان درس</p>
+<a href="pdfs/note2.pdf" class="btn" target="_blank">
+مشاهده PDF
+</a>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
